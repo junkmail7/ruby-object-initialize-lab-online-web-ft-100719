@@ -1,4 +1,5 @@
 class Dog
+  attr_reader
   def initialize(name, breed)
     @name = name
     @breed = breed
